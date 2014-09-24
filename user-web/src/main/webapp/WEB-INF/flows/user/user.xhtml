@@ -7,58 +7,10 @@
 	xmlns:p="http://primefaces.org/ui"
 	template="/WEB-INF/flows/template.xhtml">
 
-	<ui:define name="menu">
+	<ui:define name="body">
 
-		
-
-		<h:form id="f_menubar">
-			<p:menubar>
-				<p:submenu label="Administración">
-					<p:menuitem value="Usuario" onclick="onMain('http://dev:8081/primefaces-showcase')"/>
-					<p:menuitem value="PDV" url="#" />
-					<p:menuitem value="SKU" url="#" />
-					<p:menuitem value="Catálogos" url="#" />
-					<p:menuitem value="Agenda" url="#" />
-					<p:menuitem value="Carga de rutas" url="#" />
-				</p:submenu>
-
-				<p:menuitem value="Geolocalización" />
-
-				<p:menuitem value="Dashboard" />
-
-				<p:submenu label="One pager">
-					<p:menuitem value="Nuevo" url="#" />
-				</p:submenu>
-
-				<p:menuitem value="Galería" />
-
-				<p:menuitem value="Precios" />
-
-				<f:facet name="options">
-					<p:inputText style="margin-right:10px" placeholder="Search" />
-
-					<p:menuButton value="User">
-						<p:menuitem value="Mi perfil" icon="ui-icon-person" actionListener="#{dashboard.ya}" />
-					</p:menuButton>
-				</f:facet>
-
-			</p:menubar>
-		</h:form>
-
-	</ui:define>
-
-	<ui:define name="footer">
-	footer
-	<br/>
 	
-	<!-- 	
-	session: ${session}
-	<br/>	
-	request: ${request}
-	<br/>
-	application: ${application}
-	 -->
-		
+
 	</ui:define>
 
 </ui:composition>

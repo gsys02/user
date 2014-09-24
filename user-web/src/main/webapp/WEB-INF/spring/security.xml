@@ -14,7 +14,7 @@
 
 		<custom-filter after="CAS_FILTER" ref="clientFilter" />
 
-		<intercept-url pattern="/web/dashboard" access="isAuthenticated()" />
+		<intercept-url pattern="/web/user" access="isAuthenticated()" />
 
 	</http>
 
